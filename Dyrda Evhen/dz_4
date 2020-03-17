@@ -1,0 +1,32 @@
+// 7
+
+#include <iostream.h>
+void main(){
+ int n, k, f, f1, f2;
+ cin >> n;
+ f1 = 1; f2 = 0.3;
+ for (k = 2; k <= n; k++){
+   f = fn * (k + 2);
+   if (k % 2 == 0) 
+      fn = f1;
+      f1 = f;
+  else
+      fn = f2;
+      f2 = f;
+ }
+ cout << f1 <<'\n';
+} 
+
+
+// 17з
+#include <iostream.h>
+void main(){
+ int n, k, x;
+ float S;
+ cin >> n >> x;
+ S = x;
+ for (k = 2; k <= n; k++){
+ S = 2*(S + (x ** float(k)) / float(k));
+ }
+ cout << S <<'\n';
+}
