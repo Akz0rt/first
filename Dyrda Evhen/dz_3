@@ -1,0 +1,13 @@
+#include <iostream.h>
+void main(){
+    float x,a,f;
+    cin >> x >> a;
+    if (a > 0)
+        f = x+a;
+    else
+        if (a = 0)
+            f = x;
+        else
+            f = x-a;
+    cout << f;
+    }
