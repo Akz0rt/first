@@ -1,0 +1,27 @@
+#include <iostream.h>
+#define N a
+void ReadMass(double k[]){
+  int i;
+  for (i = 0; i <= N-1; i++){
+    cout << "Enter" << i << "number: ";
+    cin >> k[i];
+    }
+  for (i = 0; i <= N-1; i++){
+    int m = k[i];
+    while(k>1){
+      if(k%2!=0){
+        break;
+        }
+      m/=2;
+      }
+      if(m==1)
+      b+=1;
+   cout << b;   
+ }
+void main(){
+  int a;
+  cin >> a >> "a = ";
+  double k[];
+  ReadMass(k);
+  cout << num;
+  }
