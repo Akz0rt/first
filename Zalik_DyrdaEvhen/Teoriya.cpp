@@ -37,5 +37,21 @@ template <class N> N RacNumber<N>::DivNumbers(N t1, T t2)
     return (N)(t1/t2);
 }
 
-//шаблон методу, що визначає додавання чисел
-template <class N> N RacNumber
+
+
+int main()
+{
+    RacNumber <float> nf; //Об'єкт, що працює з типом float
+    
+    float d = 8.2f;
+    float m = 20;
+    
+    float dm;
+    dm = nf.Mult(&d, &m);
+    
+    float dd;
+    dd = nf.MySquare(9);
+    
+    float t;
+    t = mi.DivNumbers(5, 2);
+}
